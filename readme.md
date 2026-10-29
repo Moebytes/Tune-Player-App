@@ -1,18 +1,18 @@
 ## Tune Player App
    
-<img src="assets/images/readme.png">
+<img src="assets/images/readme.png" width="300">
 
-The mobile app for Tune Player! Because I needed to have it on phone as well. 
+The mobile app for Tune Player! Because I need to have it on phone as well. 
 
 ### Features:
-- Play audio (MP3, WAV, OGG, FLAC) and MIDI files
-- Reverse playback
-- Speed adjustment (can either preserve or affect the pitch)
+- Play audio and MIDI files
+- Reverse audio
+- Speed adjustment (may preserve the pitch) 
 - Pitch shifting (and LFO pitch effect)
-- Looping from point A to point B
+- A-B Looping and copy/paste loop points
 - Render and download audio/midi with effects
 
-Filters and effects might be added soon (I don't know where to fit them tbh)
+Filters and effects might be added later (I don't know where to fit them tbh)
 
 ### Desktop App
 
