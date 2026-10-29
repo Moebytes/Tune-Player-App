@@ -1,4 +1,4 @@
-package com.moebytes.tuneplayer;
+package com.moebytes.tuneplayer.mobile;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

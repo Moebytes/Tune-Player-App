@@ -16,7 +16,7 @@ class BackgroundAudioPlugin: CAPPlugin, CAPBridgedPlugin {
 
     private var observers: [NSObjectProtocol] = []
     private var playing = false
-    private let sessionQueue = DispatchQueue(label: "com.moebytes.tuneplayer.audio-session")
+    private let sessionQueue = DispatchQueue(label: "com.moebytes.tuneplayer.mobile.audio-session")
     private var needsReactivation = false
     private var trackID = ""
     private var metadata: [String: Any] = [:]

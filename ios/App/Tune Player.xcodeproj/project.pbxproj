@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD8EBFA54384E8AA0D91E65 /* BackgroundAudioPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC63B116D4844098C039E6A /* BackgroundAudioPlugin.swift */; };
 		2FAD9763203C412B000D30F8 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2FAD9762203C412B000D30F8 /* config.xml */; };
 		4D22ABE92AF431CB00220026 /* CapApp-SPM in Frameworks */ = {isa = PBXBuildFile; productRef = 4D22ABE82AF431CB00220026 /* CapApp-SPM */; };
 		50379B232058CBB4000EE86E /* capacitor.config.json in Resources */ = {isa = PBXBuildFile; fileRef = 50379B222058CBB4000EE86E /* capacitor.config.json */; };
@@ -20,25 +21,24 @@
 		8379406730914E21000D5CA9 /* GenEi-M-Gothic-v2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8379406230914E21000D5CA9 /* GenEi-M-Gothic-v2.ttf */; };
 		9582B6832FE993A70072D4E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9582B6822FE993A50072D4E8 /* SceneDelegate.swift */; };
 		F19AA22E22F94E0BB2E4AD0B /* AudioBridgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FBC5FD5ADFA4478804FACAA /* AudioBridgeViewController.swift */; };
-		0AD8EBFA54384E8AA0D91E65 /* BackgroundAudioPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC63B116D4844098C039E6A /* BackgroundAudioPlugin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FAD9762203C412B000D30F8 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = config.xml; sourceTree = "<group>"; };
 		50379B222058CBB4000EE86E /* capacitor.config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = capacitor.config.json; sourceTree = "<group>"; };
-		504EC3041FED79650016851F /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504EC3041FED79650016851F /* Tune Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tune Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		504EC3071FED79650016851F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		504EC30C1FED79650016851F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		504EC30E1FED79650016851F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		504EC3111FED79650016851F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		504EC3131FED79650016851F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B271D01FEDC1A000F3C39B /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; path = public; sourceTree = "<group>"; };
-		8379406230914E21000D5CA9 /* GenEi-M-Gothic-v2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GenEi-M-Gothic-v2.ttf"; path = "/Users/chris/Documents/Moebytes/Programming/Applications/tune-player-app/assets/fonts/GenEi-M-Gothic-v2.ttf"; sourceTree = "<absolute>"; };
-		8379406330914E21000D5CA9 /* Honoka-Shin-Antique-Kaku.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Honoka-Shin-Antique-Kaku.ttf"; path = "/Users/chris/Documents/Moebytes/Programming/Applications/tune-player-app/assets/fonts/Honoka-Shin-Antique-Kaku.ttf"; sourceTree = "<absolute>"; };
-		8379406430914E21000D5CA9 /* TsunagiGothic-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TsunagiGothic-Black.ttf"; path = "/Users/chris/Documents/Moebytes/Programming/Applications/tune-player-app/assets/fonts/TsunagiGothic-Black.ttf"; sourceTree = "<absolute>"; };
+		5FBC5FD5ADFA4478804FACAA /* AudioBridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBridgeViewController.swift; sourceTree = "<group>"; };
+		8379406230914E21000D5CA9 /* GenEi-M-Gothic-v2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GenEi-M-Gothic-v2.ttf"; path = "/Users/chris/Documents/Moebytes/Programming/Applications/tune-player-mobile/assets/fonts/GenEi-M-Gothic-v2.ttf"; sourceTree = "<absolute>"; };
+		8379406330914E21000D5CA9 /* Honoka-Shin-Antique-Kaku.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Honoka-Shin-Antique-Kaku.ttf"; path = "/Users/chris/Documents/Moebytes/Programming/Applications/tune-player-mobile/assets/fonts/Honoka-Shin-Antique-Kaku.ttf"; sourceTree = "<absolute>"; };
+		8379406430914E21000D5CA9 /* TsunagiGothic-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TsunagiGothic-Black.ttf"; path = "/Users/chris/Documents/Moebytes/Programming/Applications/tune-player-mobile/assets/fonts/TsunagiGothic-Black.ttf"; sourceTree = "<absolute>"; };
 		9582B6822FE993A50072D4E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		958DCC722DB07C7200EA8C5F /* debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = debug.xcconfig; path = ../debug.xcconfig; sourceTree = SOURCE_ROOT; };
-		5FBC5FD5ADFA4478804FACAA /* AudioBridgeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBridgeViewController.swift; sourceTree = "<group>"; };
 		FAC63B116D4844098C039E6A /* BackgroundAudioPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioPlugin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,7 @@
 		504EC3051FED79650016851F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				504EC3041FED79650016851F /* App.app */,
+				504EC3041FED79650016851F /* Tune Player.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		504EC3031FED79650016851F /* App */ = {
+		504EC3031FED79650016851F /* Tune Player */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "App" */;
+			buildConfigurationList = 504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "Tune Player" */;
 			buildPhases = (
 				504EC3001FED79650016851F /* Sources */,
 				504EC3011FED79650016851F /* Frameworks */,
@@ -107,12 +107,12 @@
 			);
 			dependencies = (
 			);
-			name = App;
+			name = "Tune Player";
 			packageProductDependencies = (
 				4D22ABE82AF431CB00220026 /* CapApp-SPM */,
 			);
 			productName = App;
-			productReference = 504EC3041FED79650016851F /* App.app */;
+			productReference = 504EC3041FED79650016851F /* Tune Player.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -131,7 +131,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 504EC2FF1FED79650016851F /* Build configuration list for PBXProject "App" */;
+			buildConfigurationList = 504EC2FF1FED79650016851F /* Build configuration list for PBXProject "Tune Player" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -147,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				504EC3031FED79650016851F /* App */,
+				504EC3031FED79650016851F /* Tune Player */,
 			);
 		};
 /* End PBXProject section */
@@ -330,9 +330,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" \"-DDEBUG\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.moebytes.tuneplayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moebytes.tuneplayer.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
@@ -355,8 +355,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.moebytes.tuneplayer;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moebytes.tuneplayer.mobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_VERSION = 5.0;
@@ -367,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		504EC2FF1FED79650016851F /* Build configuration list for PBXProject "App" */ = {
+		504EC2FF1FED79650016851F /* Build configuration list for PBXProject "Tune Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				504EC3141FED79650016851F /* Debug */,
@@ -376,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "App" */ = {
+		504EC3161FED79650016851F /* Build configuration list for PBXNativeTarget "Tune Player" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				504EC3171FED79650016851F /* Debug */,

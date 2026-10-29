@@ -1,4 +1,4 @@
-package com.moebytes.tuneplayer;
+package com.moebytes.tuneplayer.mobile;
 
 import com.getcapacitor.BridgeActivity;
 

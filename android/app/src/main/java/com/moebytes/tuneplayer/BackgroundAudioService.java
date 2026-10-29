@@ -1,4 +1,4 @@
-package com.moebytes.tuneplayer;
+package com.moebytes.tuneplayer.mobile;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -30,8 +30,8 @@ public class BackgroundAudioService extends Service {
     private PowerManager.WakeLock wakeLock;
     private boolean focused;
 
-    static final String PAUSED = "com.moebytes.tuneplayer.AUDIO_PAUSED";
-    private static final String PAUSE = "com.moebytes.tuneplayer.PAUSE_AUDIO";
+    static final String PAUSED = "com.moebytes.tuneplayer.mobile.AUDIO_PAUSED";
+    private static final String PAUSE = "com.moebytes.tuneplayer.mobile.PAUSE_AUDIO";
     private static final String CHANNEL = "audio_playback";
 
     private final AudioManager.OnAudioFocusChangeListener focusListener = change -> {

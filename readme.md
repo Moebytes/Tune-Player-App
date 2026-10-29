@@ -14,6 +14,17 @@ The mobile app for Tune Player! Because I need to have it on phone as well.
 
 Filters and effects might be added later (I don't know where to fit them tbh)
 
+### Download
+
+<a href="https://apps.apple.com/us/app/tune-player-mobile/id6828237476" target="_blank">
+  <img src="assets/images/app-store.svg" style="height:60px; margin-right:10px;"/>
+</a>
+&nbsp;&nbsp;
+<a href="https://play.google.com/store/apps/details?id=com.moebytes.tuneplayer.mobile" target="_blank">
+  <img src="assets/images/google-play.svg" style="height:60px"/>
+</a>
+<br/><br/>
+
 ### Desktop App
 
 - [Tune Player](https://github.com/Moebytes/Tune-Player)
