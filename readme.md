@@ -1,4 +1,4 @@
-## Tune Player App
+## Tune Player Mobile
    
 <img src="assets/images/readme.png" width="300">
 
