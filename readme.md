@@ -14,6 +14,10 @@ The mobile app for Tune Player! Because I need to have it on phone as well.
 
 Filters and effects might be added later (I don't know where to fit them tbh)
 
+### Design
+
+Our design is available here: https://www.figma.com/design/eJd4uhxED9tAILJyFMTEPl/Tune-Player-App
+
 ### Download
 
 <a href="https://apps.apple.com/us/app/tune-player-mobile/id6828237476" target="_blank">
