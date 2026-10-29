@@ -1,0 +1,139 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Tune Player - A cute music player ❤                       *
+ * Copyright © 2026 Moebytes <moebytes.com>                  *
+ * Licensed under CC BY-NC 4.0. See license.txt for details. *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+ 
+@import "../../index.less";
+
+.recent-plays {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    gap: 15px;
+    background-color: var(--background);
+}
+
+.recent-title-container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.recent-title {
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "GenEi M Gothic v2", sans-serif;
+    color: var(--textColor);
+}
+
+.recent-scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.recent-row-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.recent-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: stretch;
+    justify-content: space-evenly;
+}
+
+.recent-song-item {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 160px;
+    min-width: 0;
+    border: 3px solid transparent;
+    border-radius: 0.7rem;
+    overflow: hidden;
+}
+
+.recent-song-item[aria-current="true"] {
+    border: 3px solid var(--iconColor);
+}
+
+.recent-img {
+    max-width: 160px;
+    height: auto;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.recent-song-text-container {
+    display: flex;
+    padding: 0.25rem 0.3125rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 0.625rem;
+    flex-wrap: wrap;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background: var(--navColor); //linear-gradient(180deg, var(--background) 0%, var(--navColor) 100%);
+}
+
+.recent-song-text {
+    color: var(--textColor);
+    font-family: "Honoka Shin Antique-Kaku";
+    font-size: 16px;
+    word-break: break-word;
+}
+
+.recent-square {
+    max-width: 160px;
+    height: auto;
+    margin: 10px;
+    opacity: 0;
+}
+
+.recent-img-yt {
+    width: auto;
+    max-height: 12vw;
+    margin: 10px;
+}
+
+.recent-mp3-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-left: 20px;
+}
+
+.recent-mp3-button {
+    height: 35px;
+    width: auto;
+    color: var(--iconColor);
+}
+
+.recent-page-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+
+.recent-page-button {
+    height: 25px;
+    width: auto;
+    color: var(--iconColor);
+}

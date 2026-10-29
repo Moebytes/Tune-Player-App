@@ -1,0 +1,317 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Tune Player - A cute music player ❤                       *
+ * Copyright © 2026 Moebytes <moebytes.com>                  *
+ * Licensed under CC BY-NC 4.0. See license.txt for details. *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.sheet {
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    background-color: var(--background);
+    padding: 20px 0px;
+    gap: 25px;
+    overflow: visible;
+}
+
+.sheet-title {
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "GenEi M Gothic v2", sans-serif;
+    color: var(--textColor);
+}
+
+.sheet-big-text {
+    font-size: 30px;
+    white-space: nowrap;
+    font-family: "GenEi M Gothic v2", sans-serif;
+    color: var(--textColor);
+}
+
+.sheet-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 97%;
+}
+
+.sheet-slider-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.sheet-slider-text-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sheet-slider {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    border-radius: 0.2;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sheet-slider-track-0 {
+    height: 7px;
+    background-color: var(--iconColor);
+    border-radius: 0.2;
+}
+
+.sheet-slider-track-1 {
+    height: 7px;
+    background-color: var(--navColor);
+    border-radius: 0.2;
+}
+
+.sheet-slider-handle {
+    background-color: var(--iconColor);
+    border-radius: 50%;
+    margin-left: -2px;
+    border: none;
+    height: 1.3rem;
+    width: 1.3rem;
+    &:active {
+        box-shadow: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.sheet-slider-text {
+    color: var(--textColor);
+    font-family: "GenEi M Gothic v2", sans-serif;
+    font-size: 20px;
+    overflow-wrap: anywhere;
+}
+
+.sheet-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.sheet-button {
+    background-color: var(--navColor);
+    padding: 10px 7px;
+    border-radius: 10px;
+    color: var(--textColor);
+    font-family: "GenEi M Gothic v2", sans-serif;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.sheet-button2 {
+    .sheet-button();
+    padding: 10px 15px;
+}
+
+.sheet-button3 {
+    .sheet-button();
+    background-color: var(--iconColor);
+    padding: 10px 18px;
+    font-size: 21px;
+}
+
+.sheet-button[aria-pressed="true"] {
+    background-color: var(--iconColor);
+}
+
+.sheet-button2[aria-pressed="true"] {
+    background-color: var(--iconColor);
+}
+
+.sheet-clear-button {
+    width: 90%;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: var(--resetColor);
+    color: black;
+    font-family: "GenEi M Gothic v2", sans-serif;
+    font-size: 22px;
+}
+
+.sheet-apply-button {
+    width: 90%;
+    padding: 12px;
+    border-radius: 16px;
+    background-color: var(--iconColor);
+    color: var(--textColor);
+    font-family: "GenEi M Gothic v2", sans-serif;
+    font-size: 22px;
+}
+
+.sheet-checkbox-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.sheet-checkbox-text {
+    color: var(--textColor);
+    font-family: "GenEi M Gothic v2", sans-serif;
+    font-size: 20px;
+}
+
+.sheet-checkbox {
+    appearance: none;
+    width: 26px;
+    height: 26px;
+    border: 2px solid var(--textColor);
+    outline: none;
+    border-radius: 6px;
+    margin-top: 7px;
+    background-color: var(--background);
+    cursor: pointer;
+    position: relative;
+    flex-shrink: 0;
+
+    &:checked {
+        background-color: var(--iconColor);
+        border: 2px solid transparent;
+
+        &::after {
+            content: "";
+            position: absolute;
+            width: 6px;
+            height: 14px;
+            border: solid white;
+            border-width: 0 2px 2px 0;
+            transform: translate(-50%, -60%) rotate(45deg);
+            top: 50%;
+            left: 50%;
+        }
+    }
+}
+
+.sheet-solid-background {
+    position: absolute;
+    inset: 0;
+    bottom: -100px;
+    background: var(--background);
+    pointer-events: none;
+    z-index: -1;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+}
+
+.sheet-mini-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    gap: 10px;
+}
+
+.sheet-mini-slider {
+    display: flex;
+    justify-content: center;
+    height: 20px;
+    width: 100%;
+    border-radius: 0.2;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.sheet-mini-slider-track-0 {
+    height: 5px;
+    background-color: var(--iconColor);
+    border-radius: 0.2;
+}
+
+.sheet-mini-slider-track-1 {
+    height: 5px;
+    background-color: var(--navColor);
+    border-radius: 0.2;
+}
+
+.sheet-mini-slider-handle {
+    background-color: var(--iconColor);
+    margin-left: -2px;
+    border: none;
+    height: 1.2rem;
+    width: 1.2rem;
+    &:active {
+        box-shadow: none;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
+.sheet-mini-slider-text {
+    color: var(--textColor);
+    font-family: "GenEi M Gothic v2", sans-serif;
+    font-size: 18px;
+}
+
+.ab-slider {
+    display: flex;
+    width: 100%;
+    border-radius: 0.2rem;
+    align-items: center;
+    height: 2.5rem;
+    margin: 0.5rem 0;
+    touch-action: none;
+}
+
+.ab-slider-track-0 {
+    height: 0.6rem;
+    background-color: var(--barColor);
+    border-radius: 0.2rem;
+}
+
+.ab-slider-track-1 {
+    height: 0.6rem;
+    background-color: var(--iconColor);
+    border-radius: 0.2rem;
+}
+
+.ab-slider-track-2 {
+    height: 0.6rem;
+    background-color: var(--barColor);
+    border-radius: 0.2rem;
+}
+
+
+.ab-slider-thumb() {
+    border: none;
+    cursor: grab;
+    height: 2rem;
+    width: 2rem;
+    &:active {
+        box-shadow: none;
+        filter: invert(1) hue-rotate(180deg);
+    }
+    &:hover {
+        filter: invert(1) hue-rotate(180deg);
+    }
+    &:focus {
+        outline: none;
+    }
+    &:focus-visible {
+        outline: none;
+    }
+}
+
+.ab-slider-thumb-0 {
+    .ab-slider-thumb();
+    content: url("../../assets/icons/a-button.png");
+    background-color: transparent;
+}
+
+.ab-slider-thumb-1 {
+    .ab-slider-thumb();
+    content: url("../../assets/icons/b-button.png");
+    background-color: transparent;
+}
